@@ -21,7 +21,7 @@ int main()
 	while (true)
 	{
 		cout << "Введите фразу для озвучки: ";
-		cin >> answer;
+		getline(cin, answer);
 		if (answer == "!EXIT")
 		{
 			return 0;
